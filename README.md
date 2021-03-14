@@ -61,8 +61,9 @@ x = F.tanh(x)
 
 ## Results
 The environment is solved in 3862 episodes.
+
 <img src="https://github.com/ccakarolotw/Deep_reinforcement_learning_Unity_Tennis/blob/main/trained.gif" width ="500">
 
-<img src="https://github.com/ccakarolotw/Deep_reinforcement_learning_Unity_Tennis/blob/main/score.png" width ="500">
+<img src="https://github.com/ccakarolotw/Deep_reinforcement_learning_Unity_Tennis/blob/main/score.png" width ="400">
 
 
