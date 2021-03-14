@@ -4,7 +4,7 @@ This notebook uses deep reinforcement learning technique - Multuple Agent Deep D
 ## Unity Tennis Environment
 The environment has two agents. Each agent has an observation space consisting of 8 variables and an action space consisting of two continuous variables (corresponding to moving toward/away from the net and jumping). The agents receive 0.1 reward for hitting the ball over the net and -0.01 reward for letting a ball hit the ground or hitting the ball out of bounds. 
 
-<img src="https://github.com/ccakarolotw/Deep_reinforcement_learning_Unity_Tennis/blob/main/tennis.png" width ="500">
+<img src="https://github.com/ccakarolotw/Deep_reinforcement_learning_Unity_Tennis/blob/main/untrained.gif" width ="500">
 
 ## Dependencies
 Installation of dependencies follow https://github.com/udacity/deep-reinforcement-learning#dependencies
@@ -61,6 +61,7 @@ x = F.tanh(x)
 
 ## Results
 The environment is solved in 3862 episodes.
+<img src="https://github.com/ccakarolotw/Deep_reinforcement_learning_Unity_Tennis/blob/main/trained.gif" width ="500">
 
 <img src="https://github.com/ccakarolotw/Deep_reinforcement_learning_Unity_Tennis/blob/main/score.png" width ="500">
 
