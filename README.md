@@ -60,7 +60,7 @@ x = F.tanh(x)
 - Actor optimizer: Adam with learning rate 1E-4
 
 ## Results
-The environment is solved in 283 episodes.
+The environment is solved in 3862 episodes.
 
 <img src="https://github.com/ccakarolotw/Deep_reinforcement_learning_Unity_Tennis/blob/main/score.png" width ="500">
 
