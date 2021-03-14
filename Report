@@ -1,0 +1,6 @@
+# Report
+
+The code uses MADDPG to solve the Unity Tennis environment. 
+
+
+<img src="https://github.com/ccakarolotw/Deep_reinforcement_learning_Unity_Tennis/blob/main/trained.gif" width ="500">
