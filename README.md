@@ -17,7 +17,12 @@ activate drlnd`
 
 `conda install pytorch=0.4.0 -c pytorch`
 
-3. Download Unity environment and place it in the same folder as the jupyter notebook `Tennis.ipynb`
+3. Download Unity environment from [Udacity Project 3: Collaboration and Competition](https://github.com/udacity/deep-reinforcement-learning/tree/master/p3_collab-compet#getting-started) and update the link in this line of code in the Jupyter notebook 
+
+```env = UnityEnvironment(file_name="link to env file")```
+
+## Usage
+By running `Tennis.ipynb` notebook the environment is loaded, the MADDPG model is defined and trained. Pretrained model weights `checkpoint_actor_1.pth`, `checkpoint_actor_2.pth`, `checkpoint_critic_1.pth`, `checkpoint_critic_2.pth` are also included. 
 
 ## Multiple Agent Deep Deterministic Policy Gradient (MADDPG)
 In MADDPG, each agent's policy is based on DDPG algorithm. MADDPG adopts the framework of centralized training with decentralized execution. The critics of each agent is trained on the observations and actions of both agents, the actors of each agent is trained only on its own observations. 
